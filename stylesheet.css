@@ -24,6 +24,11 @@
     grid-column-gap: 1em;
 }
 .cats-grid div > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.cat {
     border: 3px solid grey;
     border-radius: 7px;
     width: 100%;
