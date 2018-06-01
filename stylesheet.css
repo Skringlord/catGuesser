@@ -1,14 +1,24 @@
 .header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 100px 2em 2em;
+    grid-template-rows: 2em 2em 2em;
     border-radius: 1px solid black;
     text-align: center;
-    font-size: 2em;
+    font-size: 1em;
 }
 .header div{
     text-align: center;
     border: 1px solid black;
+}
+.number-of-cats {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.info-block {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: 1fr;
 }
 
 .cats-container {
@@ -29,7 +39,7 @@
     object-fit: cover;
 }
 .cat {
-    border: 3px solid grey;
+    border: 5px solid grey;
     border-radius: 7px;
     width: 100%;
     height: 100%;
