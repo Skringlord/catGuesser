@@ -1,26 +1,30 @@
 .header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 100px;
+    grid-template-rows: 100px 2em 2em;
     border-radius: 1px solid black;
     text-align: center;
     font-size: 2em;
+}
+.header div{
+    text-align: center;
+    border: 1px solid black;
 }
 
 .cats-container {
     display: grid;
     grid-template-columns: 1fr 8fr 1fr;
     grid-template-rows: minmax(1000px, 1fr);
-    
 }
 .cats-grid {
+    margin-top: 1em;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(82px, 300px));
     grid-row-gap: 1em;
     grid-column-gap: 1em;
 }
 .cats-grid div > img{
-    border: 1px solid black;
+    border: 3px solid grey;
     border-radius: 7px;
     width: 100%;
     height: 100%;
